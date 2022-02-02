@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+</head>
+<body>
+    <style>
+        body {
+          background-color: lightblue;
+        }
+        
+        h1 {
+          color: white;
+          text-align: center;
+        }
+        
+        p {
+          font-family: verdana;
+          font-size: 20px;
+        }
+        </style>
+    <table border="1">
+        <caption>Student info.</caption>
+        <tr>
+            <th>Roll</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>A</td>
+            <td rowspan="2">13</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2"><img src ="clg.jpg"></td>
+        </tr>
+    </table>
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+</body>
+</html>

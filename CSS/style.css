@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: gray;
+}
+.admin-box{
+    background-color: skyblue;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+.admin-box h1{
+    color: rgb(5, 58, 78);
+}
+.admin-box form{
+   padding: 20px;
+}
+.admin-box form input{
+    font-size: larger;
+    width: 60%;
+}
+#btn{
+    color: indigo;
+}
+.links{
+
+}
+.links a{
+    color: lightseagreen;
+}
+.a input{
+    width: 5px;
+}
